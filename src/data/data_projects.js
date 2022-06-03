@@ -42,7 +42,7 @@ const data_projects = [
         id : 2,
         name : 'Nova Modeling Agency Website',
         tech : 'Javascript (GSAP & AOS)',
-        desc : 'Lorem nahasdflp ajsnd lasd paskqwnvl klasdvpas',
+        desc : 'This website is for model agency',
         img: modelImage,
         link: '/projects/',
         source: '',
