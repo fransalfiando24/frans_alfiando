@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/frans_alfiando/static/css/main.d89ee90c.css",
-    "main.js": "/frans_alfiando/static/js/main.27a0aedb.js",
+    "main.css": "/frans_alfiando/static/css/main.db372ac6.css",
+    "main.js": "/frans_alfiando/static/js/main.c67b6f2b.js",
     "static/media/fransisco_furniture.png": "/frans_alfiando/static/media/fransisco_furniture.5b7b663cd5542721d0fe.png",
     "static/media/model.jpg": "/frans_alfiando/static/media/model.c362f58ce019a7b73774.jpg",
     "static/media/BasketBallShoes.jpg": "/frans_alfiando/static/media/BasketBallShoes.860f531b6217fef97049.jpg",
@@ -38,11 +38,11 @@
     "static/media/spk7.png": "/frans_alfiando/static/media/spk7.e01c86ea70160e872bbd.png",
     "static/media/music-player.JPG": "/frans_alfiando/static/media/music-player.d0cb199edb03150bca98.JPG",
     "index.html": "/frans_alfiando/index.html",
-    "main.d89ee90c.css.map": "/frans_alfiando/static/css/main.d89ee90c.css.map",
-    "main.27a0aedb.js.map": "/frans_alfiando/static/js/main.27a0aedb.js.map"
+    "main.db372ac6.css.map": "/frans_alfiando/static/css/main.db372ac6.css.map",
+    "main.c67b6f2b.js.map": "/frans_alfiando/static/js/main.c67b6f2b.js.map"
   },
   "entrypoints": [
-    "static/css/main.d89ee90c.css",
-    "static/js/main.27a0aedb.js"
+    "static/css/main.db372ac6.css",
+    "static/js/main.c67b6f2b.js"
   ]
 }
