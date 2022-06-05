@@ -29,7 +29,7 @@ function HeroSection() {
                         <LinkStyle to='/projects'>See My Works</LinkStyle>
                     </div>
                     <div className='hero-contact'>
-                        <a href="" data-aos="fade-left" data-aos-duration="1000" data-aos-delay=""><FaInstagram/></a>
+                        <a href="" data-aos="fade-left" data-aos-duration="1000"><FaInstagram/></a>
                         <a href="" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="100" className='mt-100'><FaFacebookF/></a>
                         <a href="https://www.linkedin.com/in/frans-alfiando/" target="_blank" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200"><FaLinkedinIn/></a>
                         <a href="https://github.com/fransalfiando24/" target="_blank" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300"><FaGithub/></a>

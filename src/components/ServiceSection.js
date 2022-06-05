@@ -1,9 +1,17 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { MdCode, MdDesktopMac, MdPhoneAndroid, MdPhoneCallback, MdPhoneIphone, MdPhonelink } from 'react-icons/md'
 import { BsClipboardData } from 'react-icons/bs'
 import styled from 'styled-components'
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
 function ServiceSection() {
+    useEffect(() => {
+        AOS.init({
+            once: true,
+        })
+    })
+
     return (
         <ServiceStyles>
             <div className="service-section">
@@ -13,17 +21,17 @@ function ServiceSection() {
                         <h1>SERVICES</h1>
                     </div>
                     <div className="service-items">
-                        <div className="service-item">
+                        <div className="service-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="">
                             <MdDesktopMac/>
                             <h2 className="service-item-title">Web Design</h2>
                             <p>I do ui/ux design for website that helps website to get a beautiful look.</p>
                         </div>
-                        <div className="service-item">
+                        <div className="service-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
                             <MdCode/>
                             <h2 className="service-item-title">Web Development</h2>
                             <p>I also develop websites. I build a high performance website for a better user experience.</p>
                         </div>
-                        <div className="service-item">
+                        <div className="service-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                             <BsClipboardData/>
                             <h2 className="service-item-title">Business Intelligence</h2>
                             <p>I also create a dashboard for business or data analysis using Microsoft Power BI.</p>
