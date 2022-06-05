@@ -1,14 +1,22 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import aboutImage from '../assets/images/about.jpg'
 import styled from 'styled-components'
 import {Link} from 'react-router-dom'
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
 function AboutSection() {
+    useEffect(() => {
+        AOS.init({
+            once: true,
+        })   
+    })
+
     return (
         <AboutStyles>
             <div class="about-section">
                 <div class="container">
-                    <div className="about-text">
+                    <div className="about-text" data-aos="fade-right" data-aos-duration="1000">
                         <p>Let me introduce myself</p>
                         <h1>ABOUT ME</h1>
                         <p>Hi, I'm <b>Fran's Alfiando</b></p>

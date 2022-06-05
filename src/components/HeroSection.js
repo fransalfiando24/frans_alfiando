@@ -1,18 +1,25 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import heroImage from '../assets/images/hero-image.jpg'
 import styled from 'styled-components'
 import {Link} from 'react-router-dom'
 import {FaFacebook, FaFacebookF, FaGithub, FaGithubAlt, FaInstagram, FaLinkedin, FaLinkedinIn} from 'react-icons/fa'
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
 
 function HeroSection() {
+    useEffect(() => {
+        AOS.init({
+            once: true,
+        });
+    })
     return (
         <HeroStyles>
             <div className="hero">
                 <div className="container">
                     <div className="hero-heading">
-                        <p>Hello, I'm</p>
-                        <h1>Fran's Alfiando</h1>
+                        <p data-aos="fade-down" data-aos-duration="1000">Hello, I'm</p>
+                        <h1 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">Fran's Alfiando</h1>
                     </div>
                     <div className="hero-image">
                         <img src={heroImage} alt=""/>
@@ -22,10 +29,10 @@ function HeroSection() {
                         <LinkStyle to='/projects'>See My Works</LinkStyle>
                     </div>
                     <div className='hero-contact'>
-                        <a href=""><FaInstagram/></a>
-                        <a href=""><FaFacebookF/></a>
-                        <a href="https://www.linkedin.com/in/frans-alfiando/" target="_blank"><FaLinkedinIn/></a>
-                        <a href="https://github.com/fransalfiando24/" target="_blank"><FaGithub/></a>
+                        <a href="" data-aos="fade-left" data-aos-duration="1000" data-aos-delay=""><FaInstagram/></a>
+                        <a href="" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="100" className='mt-100'><FaFacebookF/></a>
+                        <a href="https://www.linkedin.com/in/frans-alfiando/" target="_blank" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200"><FaLinkedinIn/></a>
+                        <a href="https://github.com/fransalfiando24/" target="_blank" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300"><FaGithub/></a>
                     </div>
                 </div>
             </div>
