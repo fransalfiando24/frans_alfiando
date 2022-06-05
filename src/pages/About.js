@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import styled from 'styled-components'
 import {Link} from 'react-router-dom'
 import aboutImg from '../assets/images/aboutImg.jpg'
@@ -9,8 +9,16 @@ import {DiJavascript, DiCss3, DiPhp, DiGithubBadge, DiGit, DiVisualstudio} from 
 import {FiFigma} from 'react-icons/fi'
 import {SiAdobephotoshop, SiAdobexd, SiMysql, SiPowerbi, SiStyledcomponents, SiVisualstudiocode} from 'react-icons/si'
 import cv_frans from '../assets/data/CV-FRANS_ALFIANDO.pdf'
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
 function About() {
+    useEffect(() => {
+        AOS.init({
+            once: true,
+        })
+    })
+
     return (
         <AboutPageStyles>
             <div className="container">
@@ -19,10 +27,10 @@ function About() {
                         <img src={aboutImg} alt=""/>
                     </div>
                     <div className="right">
-                        <p className="about-subheading">
+                        <p className="about-subheading" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="">
                             Hi, i am <span>Fran's Alfiando</span>
                         </p>
-                        <h2 className="about-heading">
+                        <h2 className="about-heading" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
                             Front End Developer
                         </h2>
                         <div className="about-info">
@@ -43,7 +51,7 @@ function About() {
                 </div>
                 <div className="about-info-section">
                     <div className="about-info-item">
-                        <div className="about-info-heading">
+                        <div className="about-info-heading" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="">
                             Education
                         </div>
                         <AboutInfoItems 
@@ -58,7 +66,7 @@ function About() {
                         />
                     </div>
                     <div className="about-info-item">
-                        <div className="about-info-heading">
+                        <div className="about-info-heading" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="">
                             Skills
                         </div>
                         <div className="skills">
@@ -79,7 +87,7 @@ function About() {
                         </div>
                     </div>
                     <div className="about-info-item">
-                        <div className="about-info-heading">
+                        <div className="about-info-heading" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="">
                             Software
                         </div>
                         <div className="skills">
@@ -94,7 +102,7 @@ function About() {
                         </div>
                     </div>
                     <div className="about-info-item">
-                        <div className="about-info-heading">
+                        <div className="about-info-heading" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="">
                             Experiences
                         </div>
                         <AboutInfoItems 
@@ -109,7 +117,7 @@ function About() {
                         />
                     </div>
                     <div className="about-info-item">
-                        <div className="about-info-heading">
+                        <div className="about-info-heading" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="">
                             Publication
                         </div>
                         <a href="https://jmi-upiyptk.org/ojs/index.php/jmi/article/view/60" target="_blank">

@@ -3,14 +3,22 @@ import styled from 'styled-components'
 import ContactItem from '../components/ContactItem'
 import {MdLocalPhone, MdMail, MdPlace} from 'react-icons/md'
 import ContactForm from '../components/ContactForm'
+import AOS from 'aos';
+import "aos/dist/aos.css";
+import { useEffect } from 'react'
 
 function Contact() {
+    useEffect(() => {
+        AOS.init({
+            once: true,
+        })
+    })
     return (
         <ContactStyles>
             <div className="container">
                 <div className="contact-title">
-                    <p>get in touch</p>
-                    <h1>CONTACT</h1>
+                    <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="">get in touch</p>
+                    <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">CONTACT</h1>
                 </div>
                 <div className="contact-wrapper">
                     <div className="contact-left">

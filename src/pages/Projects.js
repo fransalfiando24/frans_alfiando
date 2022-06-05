@@ -1,15 +1,23 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import styled from 'styled-components'
 import data_projects from '../data/data_projects'
 import {Link} from 'react-router-dom'
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
 function Projects() {
+    useEffect(() => {
+        AOS.init({
+            once: true,
+        })
+    })
+
     return (
         <ProjectPageStyles>
             <div className="container">
                 <div className="project-title">
-                    <p>Some of my recent Works</p>
-                    <h1>PROJECTS</h1>
+                    <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="">Some of my recent Works</p>
+                    <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">PROJECTS</h1>
                 </div>
                 <div className="project-items">
                     {data_projects.map((item, index) => (
