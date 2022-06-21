@@ -128,6 +128,60 @@ function About() {
                         />
                         </a>
                     </div>
+                    <div className="about-info-item">
+                        <div className="about-info-heading" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="">
+                            Licenses & Certifications
+                        </div>
+                        <a href="https://drive.google.com/file/d/12s6FxaVJtiISxbxO9FJxB5bwyblTv6w8/view" target="_blank">
+                        <AboutInfoItems 
+                            title="Jun 2022"
+                            items={['Workshop Membuat Website dengan React JS']}
+                            desc="Alterra Academy"
+                        />
+                        </a>
+                        <a href="https://drive.google.com/file/d/10DAFKLouyrYPh-0-eMlhA6H8m_v0kXRv/view" target="_blank">
+                        <AboutInfoItems 
+                            title="Des 2021"
+                            items={['EXCELLENT GRADE in Kickstart Data Science Journey']}
+                            desc="Rakamin Academy"
+                        />
+                        </a>
+                        <a href="https://drive.google.com/file/d/1ZrhcssgD6TKwQFobiVW7hGUuINXyPyZx/view" target="_blank">
+                        <AboutInfoItems 
+                            title="Des 2021"
+                            items={['Rakamin Trial Class - Kickstart Data Science Journey']}
+                            desc="Rakamin Academy"
+                        />
+                        </a>
+                        <a href="https://drive.google.com/file/d/1hupNQCU79iKZTC8w8wiuwCAxVc3X-1D3/view" target="_blank">
+                        <AboutInfoItems 
+                            title="Mei 2021"
+                            items={['Perluas kehadiran online anda melalui strategi SEO']}
+                            desc="Gapura Digital"
+                        />
+                        </a>
+                        <a href="https://drive.google.com/file/d/1TipResM7nqPdKIKPYFw_oJdV1jNTlBhs/view" target="_blank">
+                        <AboutInfoItems 
+                            title="Jul 2020"
+                            items={['Javascript Tutorial course']}
+                            desc="Sololearn"
+                        />
+                        </a>
+                        <a href="https://drive.google.com/file/d/1ednICIgjU_2KySkO1HC3x1ng6rd5eetb/view" target="_blank">
+                        <AboutInfoItems 
+                            title="Nov 2019"
+                            items={['SQL Fundamentals course']}
+                            desc="Sololearn"
+                        />
+                        </a>
+                        <a href="https://drive.google.com/file/d/1uKkNWH9K1rpnf9M81LLghPbWjSe_TofO/view" target="_blank">
+                        <AboutInfoItems 
+                            title="Sep 2019"
+                            items={['HTML Fundamentals course']}
+                            desc="Sololearn"
+                        />
+                        </a>
+                    </div>
                 </div>
             </div>
             <ContactBanner/>
