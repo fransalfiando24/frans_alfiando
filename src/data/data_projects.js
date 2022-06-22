@@ -57,7 +57,7 @@ const data_projects = [
         desc : 'This website is used to find recipes for any food and its ingredients. This website using Spoonacular API.',
         img: foodRecipeImage,
         link: '',
-        source: 'https://github.com/fransalfiando24/food-recipe',
+        source: 'https://github.com/fransalfiando24/food-recipes',
         preview: []
     },
     {
