@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/frans_alfiando/static/css/main.db372ac6.css",
-    "main.js": "/frans_alfiando/static/js/main.671c59d2.js",
+    "main.js": "/frans_alfiando/static/js/main.1682662b.js",
     "static/media/fransisco_furniture.png": "/frans_alfiando/static/media/fransisco_furniture.5b7b663cd5542721d0fe.png",
     "static/media/food_recipe.png": "/frans_alfiando/static/media/food_recipe.ebf438120abe693f1151.png",
     "static/media/model.jpg": "/frans_alfiando/static/media/model.c362f58ce019a7b73774.jpg",
@@ -41,10 +41,10 @@
     "static/media/music-player.JPG": "/frans_alfiando/static/media/music-player.d0cb199edb03150bca98.JPG",
     "index.html": "/frans_alfiando/index.html",
     "main.db372ac6.css.map": "/frans_alfiando/static/css/main.db372ac6.css.map",
-    "main.671c59d2.js.map": "/frans_alfiando/static/js/main.671c59d2.js.map"
+    "main.1682662b.js.map": "/frans_alfiando/static/js/main.1682662b.js.map"
   },
   "entrypoints": [
     "static/css/main.db372ac6.css",
-    "static/js/main.671c59d2.js"
+    "static/js/main.1682662b.js"
   ]
 }
