@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/frans_alfiando/static/css/main.db372ac6.css",
-    "main.js": "/frans_alfiando/static/js/main.1682662b.js",
+    "main.js": "/frans_alfiando/static/js/main.058794e9.js",
     "static/media/fransisco_furniture.png": "/frans_alfiando/static/media/fransisco_furniture.5b7b663cd5542721d0fe.png",
     "static/media/food_recipe.png": "/frans_alfiando/static/media/food_recipe.ebf438120abe693f1151.png",
     "static/media/model.jpg": "/frans_alfiando/static/media/model.c362f58ce019a7b73774.jpg",
     "static/media/BasketBallShoes.jpg": "/frans_alfiando/static/media/BasketBallShoes.860f531b6217fef97049.jpg",
     "static/media/puncaklawang.jpg": "/frans_alfiando/static/media/puncaklawang.f3632521b5b0f8cc58f1.jpg",
-    "static/media/CV-FRANS_ALFIANDO.pdf": "/frans_alfiando/static/media/CV-FRANS_ALFIANDO.da4ce718ec0af42d4d83.pdf",
+    "static/media/CV-FRANS_ALFIANDO.pdf": "/frans_alfiando/static/media/CV-FRANS_ALFIANDO.be498abc5876f564a2d7.pdf",
     "static/media/aboutImg.jpg": "/frans_alfiando/static/media/aboutImg.6d210085f6218bc6adfb.jpg",
     "static/media/sistem_pakar.jpg": "/frans_alfiando/static/media/sistem_pakar.c22ab7dca5303a15d9a7.jpg",
     "static/media/hero-image.jpg": "/frans_alfiando/static/media/hero-image.2bd7dca63c55040ce8e6.jpg",
@@ -41,10 +41,10 @@
     "static/media/music-player.JPG": "/frans_alfiando/static/media/music-player.d0cb199edb03150bca98.JPG",
     "index.html": "/frans_alfiando/index.html",
     "main.db372ac6.css.map": "/frans_alfiando/static/css/main.db372ac6.css.map",
-    "main.1682662b.js.map": "/frans_alfiando/static/js/main.1682662b.js.map"
+    "main.058794e9.js.map": "/frans_alfiando/static/js/main.058794e9.js.map"
   },
   "entrypoints": [
     "static/css/main.db372ac6.css",
-    "static/js/main.1682662b.js"
+    "static/js/main.058794e9.js"
   ]
 }
