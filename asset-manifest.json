@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/frans_alfiando/static/css/main.db372ac6.css",
-    "main.js": "/frans_alfiando/static/js/main.058794e9.js",
+    "main.js": "/frans_alfiando/static/js/main.d97fd917.js",
     "static/media/fransisco_furniture.png": "/frans_alfiando/static/media/fransisco_furniture.5b7b663cd5542721d0fe.png",
     "static/media/food_recipe.png": "/frans_alfiando/static/media/food_recipe.ebf438120abe693f1151.png",
     "static/media/model.jpg": "/frans_alfiando/static/media/model.c362f58ce019a7b73774.jpg",
@@ -23,10 +23,12 @@
     "static/media/tix10.JPG": "/frans_alfiando/static/media/tix10.13b4d3ccfc7c57bd7a33.JPG",
     "static/media/tix9.JPG": "/frans_alfiando/static/media/tix9.9db7e143507151a8e495.JPG",
     "static/media/tix3.JPG": "/frans_alfiando/static/media/tix3.cf4ce52f7fcf0d166096.JPG",
+    "static/media/weather-2.JPG": "/frans_alfiando/static/media/weather-2.970891ee78ac8f0246fa.JPG",
     "static/media/spk4.png": "/frans_alfiando/static/media/spk4.221c4ef2e7db07bcff36.png",
     "static/media/spk.png": "/frans_alfiando/static/media/spk.f2df01537b845dd373d3.png",
     "static/media/starbucks.jpg": "/frans_alfiando/static/media/starbucks.fa3b7b2fcf4dd8e30d34.jpg",
     "static/media/spk9.png": "/frans_alfiando/static/media/spk9.88030f913a8acb190591.png",
+    "static/media/weather-1.JPG": "/frans_alfiando/static/media/weather-1.5c3484d86d5e6d60bfd8.JPG",
     "static/media/spk6.png": "/frans_alfiando/static/media/spk6.4af27f9e5e7fdd63972d.png",
     "static/media/RobotoMono-Regular.ttf": "/frans_alfiando/static/media/RobotoMono-Regular.418a8f9f65ccad0918af.ttf",
     "static/media/tix7.JPG": "/frans_alfiando/static/media/tix7.18c26cccd642cb063538.JPG",
@@ -38,13 +40,14 @@
     "static/media/spk8.png": "/frans_alfiando/static/media/spk8.081def3396dff9eaace9.png",
     "static/media/spk2.png": "/frans_alfiando/static/media/spk2.296ee3a3c48142124afb.png",
     "static/media/spk7.png": "/frans_alfiando/static/media/spk7.e01c86ea70160e872bbd.png",
+    "static/media/weather-3.JPG": "/frans_alfiando/static/media/weather-3.e4e6728ba05335d9fdff.JPG",
     "static/media/music-player.JPG": "/frans_alfiando/static/media/music-player.d0cb199edb03150bca98.JPG",
     "index.html": "/frans_alfiando/index.html",
     "main.db372ac6.css.map": "/frans_alfiando/static/css/main.db372ac6.css.map",
-    "main.058794e9.js.map": "/frans_alfiando/static/js/main.058794e9.js.map"
+    "main.d97fd917.js.map": "/frans_alfiando/static/js/main.d97fd917.js.map"
   },
   "entrypoints": [
     "static/css/main.db372ac6.css",
-    "static/js/main.058794e9.js"
+    "static/js/main.d97fd917.js"
   ]
 }
