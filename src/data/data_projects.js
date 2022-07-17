@@ -28,9 +28,9 @@ import puncakImage from '../assets/images/projectImg/puncaklawang.jpg'
 import furnitureImage from '../assets/images/projectImg/fransisco_furniture.png'
 import starbucksImage from '../assets/images/projectImg/starbucks.jpg'
 import foodRecipeImage from '../assets/images/projectImg/food_recipe.png'
-import weatherImage1 from '../assets/images/projectImg/weather-app/weather-1.JPG'
-import weatherImage2 from '../assets/images/projectImg/weather-app/weather-2.JPG'
-import weatherImage3 from '../assets/images/projectImg/weather-app/weather-3.JPG'
+import weatherImage1 from '../assets/images/projectImg/weather-app/weather-Img-1.JPG'
+import weatherImage2 from '../assets/images/projectImg/weather-app/weather-Img-2.JPG'
+import weatherImage3 from '../assets/images/projectImg/weather-app/weather-Img-3.JPG'
 
 const data_projects = [
     {
