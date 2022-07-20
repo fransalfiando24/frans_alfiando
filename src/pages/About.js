@@ -132,6 +132,20 @@ function About() {
                         <div className="about-info-heading" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="">
                             Licenses & Certifications
                         </div>
+                        <a href="https://www.dicoding.com/certificates/81P2G5028POY" target="_blank">
+                        <AboutInfoItems 
+                            title="Jul 2022"
+                            items={['Belajar Dasar Pemrograman JavaScript']}
+                            desc="Dicoding Indonesia"
+                        />
+                        </a>
+                        <a href="https://www.dicoding.com/certificates/07Z6R38WRPQR" target="_blank">
+                        <AboutInfoItems 
+                            title="Jul 2022"
+                            items={['Belajar Dasar Pemrograman Web']}
+                            desc="Dicoding Indonesia"
+                        />
+                        </a>
                         <a href="https://drive.google.com/file/d/12s6FxaVJtiISxbxO9FJxB5bwyblTv6w8/view" target="_blank">
                         <AboutInfoItems 
                             title="Jun 2022"
