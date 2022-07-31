@@ -35,26 +35,6 @@ import weatherImage3 from '../assets/images/projectImg/weather-app/weather-Img-3
 const data_projects = [
     {
         id : 1,
-        name : 'Puncak Lawang Tourism Website',
-        tech : 'React Js, GSAP Library, AOS',
-        desc : 'Lorem nahasdflp ajsnd lasd paskqwnvl klasdvpas',
-        img: puncakImage,
-        link: 'https://fransalfiando24.github.io/tourism_website/',
-        source: 'https://github.com/fransalfiando24/tourism_website',
-        preview: []
-    },
-    {
-        id : 2,
-        name : 'Starbucks Landing Page',
-        tech : 'React JS & AOS',
-        desc : 'This is a landing page website for Starbucks, with interactive user experience',
-        img: starbucksImage,
-        link: 'https://fransalfiando24.github.io/startbucks-landing-page/',
-        source: 'https://github.com/fransalfiando24/startbucks-landing-page',
-        preview: []
-    },
-    {
-        id : 3,
         name : 'Weather App',
         tech : 'React JS',
         desc : 'This website is used to see the weather in various locations. This website using Open Weather API.',
@@ -64,13 +44,33 @@ const data_projects = [
         preview: [weatherImage1, weatherImage2, weatherImage3]
     },
     {
-        id : 4,
+        id : 2,
         name : 'Food Recipe Website',
         tech : 'React JS',
         desc : 'This website is used to find recipes for any food and its ingredients. This website using Spoonacular API.',
         img: foodRecipeImage,
-        link: '',
+        link: 'https://fransalfiando24.github.io/food-recipes/',
         source: 'https://github.com/fransalfiando24/food-recipes',
+        preview: []
+    },
+    {
+        id : 3,
+        name : 'Puncak Lawang Tourism Website',
+        tech : 'React Js, GSAP Library, AOS',
+        desc : 'Lorem nahasdflp ajsnd lasd paskqwnvl klasdvpas',
+        img: puncakImage,
+        link: 'https://fransalfiando24.github.io/tourism_website/',
+        source: 'https://github.com/fransalfiando24/tourism_website',
+        preview: []
+    },
+    {
+        id : 4,
+        name : 'Starbucks Landing Page',
+        tech : 'React JS & AOS',
+        desc : 'This is a landing page website for Starbucks, with interactive user experience',
+        img: starbucksImage,
+        link: 'https://fransalfiando24.github.io/startbucks-landing-page/',
+        source: 'https://github.com/fransalfiando24/startbucks-landing-page',
         preview: []
     },
     {
