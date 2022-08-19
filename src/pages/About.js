@@ -111,7 +111,7 @@ function About() {
                             desc="Designing and implementing Artificial Intelligence (Expert System) applications to diagnose gastric diseases."
                         />
                         <AboutInfoItems 
-                            title="Sep 2021 - Feb 2022"
+                            title="Sept 2021 - Feb 2022"
                             items={['PT SEMEN PADANG - Internship']}
                             desc="UNIT SISTEM MANAJEMEN - Program Magang Mahasiswa Bersertifikat (PMMB)."
                         />
@@ -132,6 +132,20 @@ function About() {
                         <div className="about-info-heading" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="">
                             Licenses & Certifications
                         </div>
+                        <a href="https://www.dicoding.com/certificates/NVP7KE65WZR0" target="_blank">
+                        <AboutInfoItems 
+                            title="Aug 2022"
+                            items={['Belajar Membuat Aplikasi Web dengan React']}
+                            desc="Dicoding Indonesia"
+                        />
+                        </a>
+                        <a href="https://www.dicoding.com/certificates/RVZK67VV4ZD5" target="_blank">
+                        <AboutInfoItems 
+                            title="Aug 2022"
+                            items={['Belajar Membuat Front-End Web untuk Pemula']}
+                            desc="Dicoding Indonesia"
+                        />
+                        </a>
                         <a href="https://www.dicoding.com/certificates/81P2G5028POY" target="_blank">
                         <AboutInfoItems 
                             title="Jul 2022"
@@ -169,7 +183,7 @@ function About() {
                         </a>
                         <a href="https://drive.google.com/file/d/1hupNQCU79iKZTC8w8wiuwCAxVc3X-1D3/view" target="_blank">
                         <AboutInfoItems 
-                            title="Mei 2021"
+                            title="May 2021"
                             items={['Perluas kehadiran online anda melalui strategi SEO']}
                             desc="Gapura Digital"
                         />
@@ -190,7 +204,7 @@ function About() {
                         </a>
                         <a href="https://drive.google.com/file/d/1uKkNWH9K1rpnf9M81LLghPbWjSe_TofO/view" target="_blank">
                         <AboutInfoItems 
-                            title="Sep 2019"
+                            title="Sept 2019"
                             items={['HTML Fundamentals course']}
                             desc="Sololearn"
                         />
