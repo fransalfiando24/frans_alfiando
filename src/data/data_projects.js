@@ -31,10 +31,22 @@ import foodRecipeImage from '../assets/images/projectImg/food_recipe.png'
 import weatherImage1 from '../assets/images/projectImg/weather-app/weather-Img-1.JPG'
 import weatherImage2 from '../assets/images/projectImg/weather-app/weather-Img-2.JPG'
 import weatherImage3 from '../assets/images/projectImg/weather-app/weather-Img-3.JPG'
+import movieApp1 from '../assets/images/projectImg/movie-app/movieApp1.png'
+import movieApp2 from '../assets/images/projectImg/movie-app/movieApp2.png'
 
 const data_projects = [
     {
         id : 1,
+        name : 'Movlix',
+        tech : 'React JS',
+        desc : 'This website is used to see movies recommendation, and also movies review. This website using The Movie Database (TMDB) API.',
+        img: movieApp1,
+        link: 'https://fransalfiando24.github.io/movie-app/',
+        source: 'https://github.com/fransalfiando24/movie-app',
+        preview: [movieApp1, movieApp2]
+    },
+    {
+        id : 2,
         name : 'Weather App',
         tech : 'React JS',
         desc : 'This website is used to see the weather in various locations. This website using Open Weather API.',
@@ -44,7 +56,7 @@ const data_projects = [
         preview: [weatherImage1, weatherImage2, weatherImage3]
     },
     {
-        id : 2,
+        id : 3,
         name : 'Food Recipe Website',
         tech : 'React JS',
         desc : 'This website is used to find recipes for any food and its ingredients. This website using Spoonacular API.',
@@ -54,7 +66,7 @@ const data_projects = [
         preview: []
     },
     {
-        id : 3,
+        id : 4,
         name : 'Puncak Lawang Tourism Website',
         tech : 'React Js, GSAP Library, AOS',
         desc : 'Lorem nahasdflp ajsnd lasd paskqwnvl klasdvpas',
@@ -64,7 +76,7 @@ const data_projects = [
         preview: []
     },
     {
-        id : 4,
+        id : 5,
         name : 'Starbucks Landing Page',
         tech : 'React JS & AOS',
         desc : 'This is a landing page website for Starbucks, with interactive user experience',
@@ -74,7 +86,7 @@ const data_projects = [
         preview: []
     },
     {
-        id : 5,
+        id : 6,
         name : 'Nova Modeling Agency Website',
         tech : 'Javascript (GSAP & AOS)',
         desc : 'This website is for model agency',
@@ -84,7 +96,7 @@ const data_projects = [
         preview: []
     },
     {
-        id : 6,
+        id : 7,
         name : 'Gastric Disease Diagnosis Expert System (Artificial Intelligence)',
         tech : 'Javascript & PHP',
         desc : 'This website is useful for users to diagnose gastric disease independently. This application implements artificial intelligence by applying the Case Based Reasoning method to diagnose.',
@@ -94,7 +106,7 @@ const data_projects = [
         preview: []
     },
     {
-        id : 7,
+        id : 8,
         name : 'Fransisco Furniture',
         tech : 'React Js, GSAP Library, AOS',
         desc : 'This is a landing page website design for furniture shop.',
@@ -104,7 +116,7 @@ const data_projects = [
         preview: []
     },
     {
-        id : 8,
+        id : 9,
         name : 'Basketball Shoes Store',
         tech : 'Javascript',
         desc : 'This is a shoes store landing page design for selling basketball shoes online. This website is designed to provide beauty as well as convenience and a better experience for customers.',
@@ -114,7 +126,7 @@ const data_projects = [
         preview: [],
     },
     {
-        id : 9,
+        id : 10,
         name : 'Tix-Movies',
         tech : 'PHP, MySQL, Javascript',
         desc : 'Tix-Movies is a website that provides online cinema ticket booking services. The goal is that film lovers in Indonesia can order cinema tickets in an easy way, anywhere and anytime.',
@@ -124,7 +136,7 @@ const data_projects = [
         preview: [tixImage,tixImage2, tixImage3, tixImage4, tixImage5, tixImage6, tixImage7, tixImage8, tixImage9, tixImage10],
     },
     {
-        id : 10,
+        id : 11,
         name : 'Rich Brian MV Website',
         tech : 'Javascript (GSAP Library)',
         desc : 'Lorem nahasdflp ajsnd lasd paskqwnvl klasdvpas',
@@ -134,7 +146,7 @@ const data_projects = [
         preview: [],
     },
     {
-        id : 11,
+        id : 12,
         name : 'The Beatles Website',
         tech : 'Javascript (GSAP Library)',
         desc : 'Lorem nahasdflp ajsnd lasd paskqwnvl klasdvpas',
@@ -144,7 +156,7 @@ const data_projects = [
         preview: [],
     },
     {
-        id : 12,
+        id : 13,
         name : 'Decision Support System for the selection of Favorite Lecturers',
         tech : 'PHP, MySQL',
         desc : 'Lorem nahasdflp ajsnd lasd paskqwnvl klasdvpas',
@@ -156,7 +168,7 @@ const data_projects = [
         ]
     },
     {
-        id : 13,
+        id : 14,
         name : 'Music Player Website',
         tech : 'Javascript',
         desc : 'This is a music player website design. The design used is the Neumorphism style. It is all about the color of the entire screen and delivering an entirely out-of-the-box experience for users. It will give a decent and unique look.',
@@ -166,7 +178,7 @@ const data_projects = [
         preview: [],
     },
     {
-        id : 14,
+        id : 15,
         name : 'Speed Typing Games',
         tech : 'Javascript',
         desc : 'This is a simple game. Its name is Speed Typing Game. This game will test how fast you type the words that appear on the screen. Let`s see how fast you type!',
