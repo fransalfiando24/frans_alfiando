@@ -1,8 +1,10 @@
 {
   "files": {
     "main.css": "/frans_alfiando/static/css/main.db372ac6.css",
-    "main.js": "/frans_alfiando/static/js/main.8e5c9808.js",
+    "main.js": "/frans_alfiando/static/js/main.93f4c755.js",
     "static/media/fransisco_furniture.png": "/frans_alfiando/static/media/fransisco_furniture.5b7b663cd5542721d0fe.png",
+    "static/media/movieApp1.png": "/frans_alfiando/static/media/movieApp1.50aec0abbfbf88ab2eec.png",
+    "static/media/movieApp2.png": "/frans_alfiando/static/media/movieApp2.5d244be1fef02f3f104b.png",
     "static/media/food_recipe.png": "/frans_alfiando/static/media/food_recipe.ebf438120abe693f1151.png",
     "static/media/model.jpg": "/frans_alfiando/static/media/model.c362f58ce019a7b73774.jpg",
     "static/media/BasketBallShoes.jpg": "/frans_alfiando/static/media/BasketBallShoes.860f531b6217fef97049.jpg",
@@ -44,10 +46,10 @@
     "static/media/music-player.JPG": "/frans_alfiando/static/media/music-player.d0cb199edb03150bca98.JPG",
     "index.html": "/frans_alfiando/index.html",
     "main.db372ac6.css.map": "/frans_alfiando/static/css/main.db372ac6.css.map",
-    "main.8e5c9808.js.map": "/frans_alfiando/static/js/main.8e5c9808.js.map"
+    "main.93f4c755.js.map": "/frans_alfiando/static/js/main.93f4c755.js.map"
   },
   "entrypoints": [
     "static/css/main.db372ac6.css",
-    "static/js/main.8e5c9808.js"
+    "static/js/main.93f4c755.js"
   ]
 }
